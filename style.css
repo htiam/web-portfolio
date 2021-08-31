@@ -6,17 +6,18 @@
 }
 
 section {
-    height: 500px;
+    height: 45rem;
 }
 
 /*************TOP SECTION*******************/
 
 #text_one h1 {
-    font-size: 50px;
-    margin-top: 40px;
+    font-size: 5rem;
+    margin-top: 1.5rem;
 }
 #text_one h3, p {
-    margin: 25px 0 25px 0;
+    font-size:1rem;
+    margin: 1.5rem 0 1.5rem 0;
 }
 .orange_color{
     color:orange;
@@ -29,7 +30,7 @@ section {
 }
 .sec_one img {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 5rem;
 }
 .top_banner{
     background-image: url(images/top-banner.png);
@@ -39,14 +40,13 @@ section {
 .link_button {
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 10px 20px;
-    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    border-radius: 1.5rem;
     color: white;
     font-weight: bold;
 }
 .link_button:hover {
     background-image: linear-gradient(lightsalmon, tomato);
-    font-size: 16.5px;
 }
 
 /**************MIDDLE SECTION******************/
@@ -55,19 +55,19 @@ section {
     width: 40%;
     float: right;
     margin-left: 5%;
-    margin-top: 100px;
+    margin-top: 10rem;
     padding-left: 5%;
 }
 
 #text_two {
-    margin-top: 150px;
+    margin-top: 10rem;
 }
 #text_two h2{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 2rem;
 }
 #text_two h3{
-    margin-top: 25px;
+    margin-top: 2rem;
 }
 
 .sec_two img {
@@ -77,14 +77,13 @@ section {
 .resume_button{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 10px 20px;
-    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    border-radius: 1.5rem;
     color: white;
     font-weight: bold;
 }
 .resume_button:hover {
     background-image: linear-gradient(lightsalmon, tomato);
-    font-size: 16.5px;
 }
 
 .middle_banner{
@@ -104,8 +103,8 @@ section {
 }
 
 .sec_three{
-    box-shadow: 10px 10px 40px grey;
-    border-radius: 10px;
+    box-shadow: 1rem 1rem 5rem grey;
+    border-radius: 0.5rem;
     background-color: white;
 }
 .bottom_banner{
@@ -115,18 +114,18 @@ section {
 }
 
 .bottom_banner h2{
-    font-size:30px;
+    font-size:2rem;
     font-weight:bold;
 }
 
 #full_stack{
-    border-left: 7px solid;
+    border-left: 0.5rem solid;
     border-image:linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
 }
 
 #baby_web{
-    border-left: 7px solid;
+    border-left: 0.5rem solid;
     border-image:linear-gradient(45deg, blue, cyan);
     border-image-slice: 1;
 }
