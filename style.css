@@ -28,7 +28,7 @@ section {
     padding-left: 5%;
 }
 .sec_one img {
-    width: 80%;
+    width: 100%;
     margin-top: 20px;
 }
 .top_banner{
@@ -72,7 +72,6 @@ section {
 
 .sec_two img {
     width: 80%;
-    margin-top: 80px;
 }
 
 .resume_button{
