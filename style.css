@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+section {
+    height: 500px;
+}
+
+/*************TOP SECTION*******************/
+
+#text_one h1 {
+    font-size: 50px;
+    margin-top: 40px;
+}
+#text_one h3, p {
+    margin: 25px 0 25px 0;
+}
+.orange_color{
+    color:orange;
+}
+.sec_one{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.sec_one img {
+    width: 80%;
+    margin-top: 20px;
+}
+.top_banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.link_button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.link_button:hover {
+    background-image: linear-gradient(lightsalmon, tomato);
+    font-size: 16.5px;
+}
+
+/**************MIDDLE SECTION******************/
+
+.sec_two{
+    width: 40%;
+    float: right;
+    margin-left: 5%;
+    margin-top: 100px;
+    padding-left: 5%;
+}
+
+#text_two {
+    margin-top: 150px;
+}
+#text_two h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+#text_two h3{
+    margin-top: 25px;
+}
+
+.sec_two img {
+    width: 80%;
+    margin-top: 80px;
+}
+
+.resume_button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.resume_button:hover {
+    background-image: linear-gradient(lightsalmon, tomato);
+    font-size: 16.5px;
+}
+
+.middle_banner{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+/**********************BOTTOM SECTION**************************/
+
+.sec_three{
+    width: 35%;
+    float: left;
+    margin: 5%;
+    padding:2%;
+}
+
+.sec_three{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    background-color: white;
+}
+.bottom_banner{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.bottom_banner h2{
+    font-size:30px;
+    font-weight:bold;
+}
+
+#full_stack{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby_web{
+    border-left: 7px solid;
+    border-image:linear-gradient(45deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+
+
+footer{
+    text-align:center;
+}
